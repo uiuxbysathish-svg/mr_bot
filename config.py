@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
 
 # Configuration variables
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8821598678:AAEfhbDa8rDqmV96tQTwccBkXf8Bgq4bkOA")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8821598678:AAFVrO1vMFrokqGe0vUOZaLNiu75XQ5tFyw")
 DATABASE_SUBPATH = os.getenv("DATABASE_PATH", "database/mr_database.db")
 
 # Dynamic DB path resolving to ensure database is created in the right sub-folder
